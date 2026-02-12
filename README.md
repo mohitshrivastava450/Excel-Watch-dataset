@@ -34,24 +34,19 @@ The dataset includes the following attributes:
 ## 🔄 Data Transformation
 - Converted discount values into numeric percentages.  
 - Split and cleaned rating count values for analysis.  
-
+- Removed duplicate records.
 ---
 
 ## 📊 Key Visualizations & Insights
 ### ⭐ Top 5 Brands (by Rating)
-- Allen Solly (4.35)  
-- MATRIX (4.14)  
-- LOIS CARON (4.04)  
-- PROVOGUE (3.97)  
-- RUSTET (3.95)  
+- Fastrack(4.41) 
+- TIMEX(4.40)  
+- SONATA(4.40)  
+- Allen Solly(4.35)  
+- PETER ENGLAND(4.32)  
 
 **Recommendation:** Keep these brands in stock for higher customer satisfaction.
-
----
-
-### 💰 Preferred Price Range
-- Most watches (271) fall between **₹169 – ₹669**.  
-- **Recommendation:** Maintain stock in the **₹150 – ₹700** range.  
+ 
 
 ---
 
@@ -64,13 +59,13 @@ The dataset includes the following attributes:
 ---
 
 ### 💵 Average Price of Top Brands
-| Brand       | Avg. Special Price (₹) |
-|-------------|-------------------------|
-| Allen Solly | 1398                   |
-| LOIS CARON  | 299                    |
-| MATRIX      | 295                    |
-| PROVOGUE    | 307                    |
-| RUSTET      | 388                    |
+| Brand        | Avg. Special Price (₹) |
+|--------------|------------------------|
+| Fastrack     | 1667.47                |
+| TIMEX        | 2765.14                |
+| SONATA       | 1223.22                |
+| Allen Solly  | 1397.82                |
+| PETER ENGLAND| 1286.69                |
 
 ---
 
@@ -79,7 +74,8 @@ The dataset includes the following attributes:
 - SABR (3.6)  
 - RLS (3.6)  
 - Shafs (3.7)  
-- KILLER (3.77)  
+- FASTDEALS(3.8)
+- KNOWZ(3.8)
 
 **Recommendation:** Avoid stocking these brands due to poor customer feedback.
 
@@ -92,19 +88,17 @@ The dataset includes the following attributes:
 ---
 
 ## 📈 Summary of Results
-- **Total Watches:** 371  
+- **Total Watches:** 179  
 - **Total Brands:** 64  
 - **Highest Priced Watch:** ₹8219  
-- **Lowest Priced Watch:** ₹169  
-- **Best Price Range:** ₹150 – ₹700  
-- **Best Brands:** Allen Solly, MATRIX, LOIS CARON, PROVOGUE, RUSTET  
-- **Worst Brands:** Forum, SABR, RLS, Shafs, KILLER  
+- **Lowest Priced Watch:** ₹169   
+- **Best Brands:** Fastrack, TIMEX, SONATA, Allen Solly,PETER ENGLAND  
+- **Worst Brands:** Forum, SABR, RLS, Shafs, FASTDEALS, KNOWZ
 
 ---
 
 ## ✅ Recommendations
 - Stock watches from **top-rated brands**.  
-- Focus inventory in the **₹150 – ₹700** price range.  
 - Promote **highest-rated watches** for better sales.  
 - Avoid stocking **lowest-rated brands**.  
 - Leverage **80–90% discount offers** to attract buyers.  
